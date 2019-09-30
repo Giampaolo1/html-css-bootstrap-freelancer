@@ -6,17 +6,19 @@
   box-sizing: border-box;
 }
 
+[class*="col-"] {
+  height: 50px; /* DEBUG:  */
+  border: 1px solid black;
+  text-align: center;
+}
+
 .container {
-  border: solid 1px black;
-  height: 100px;
+  border: solid yellow;
 }
 
-.row {
-  border: solid 1px black;
-  height: 100px;
+.container-fluid {
+  border: solid red;
 }
-
-
 
 
 /*  header  */
