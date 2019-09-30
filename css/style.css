@@ -6,15 +6,18 @@
   box-sizing: border-box;
 }
 
+.container {
+  border: solid 1px black;
+  height: 100px;
+}
+
+.row {
+  border: solid 1px black;
+  height: 100px;
+}
+
+
+
+
 /*  header  */
-  /*  navbar */
-/*  blocco generale */
-  /*  left column */
-  /*  center column */
-  /*  right column */
-    /*  RC1 */
-    /*  RC2 */
-    /*  RC3 */
-/*  /blocco generale */
-/*  footer */
-  /*  social corner */
+/*  navbar */
