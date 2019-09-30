@@ -7,7 +7,7 @@
 }
 
 [class*="col-"] {
-  height: 50px; /* DEBUG:  */
+  height: auto; /* DEBUG:  */
   border: 1px solid black;
   text-align: center;
 }
@@ -20,6 +20,38 @@
   border: solid red;
 }
 
+/* font */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 
 /*  header  */
 /*  navbar */
+nav {
+  background-color: #2C3E50;
+}
+/* elenchi puntati:  */
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  padding: 2%;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/*-- start bootstrap */
+.start {
+  background-color: #1ABC9C;
+  height: 300px;
+  padding: 3%;
+}
+h1 {
+  color: white;
+}
+.start > img {
+  width: 10%;
+}
