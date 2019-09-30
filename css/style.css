@@ -49,9 +49,29 @@ nav a {
   height: 300px;
   padding: 3%;
 }
-h1 {
+h1, h6 {
   color: white;
 }
 .start > img {
   width: 10%;
+}
+hr {
+  color: white
+}
+/* portfolio:  */
+h2 {
+  color: #2C3E50;
+}
+
+.portfolio > hr {
+  color: #2C3E50;
+}
+/* row1 */
+.casa {
+  background-image: url(../img/casa.png);
+  height: 150px;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  margin-left: 30%;
+  margin-top: 10%;
 }
