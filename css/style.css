@@ -13,7 +13,7 @@
 }
 
 .container {
-  border: solid yellow;
+  border: 1px solid yellow;
 }
 
 .container-fluid {
@@ -44,34 +44,27 @@ nav a {
   color: white;
 }
 /*-- start bootstrap */
-.start {
+#start {
   background-color: #1ABC9C;
   height: 300px;
   padding: 3%;
 }
-h1, h6 {
+#start h1, h6 {
   color: white;
 }
-.start > img {
+#start img {
   width: 10%;
 }
-hr {
+#start hr {
   color: white
 }
-/* portfolio:  */
-h2 {
+/* inizio main */
+/* sezione portfolio:  */
+#portfolio h2 {
   color: #2C3E50;
 }
 
-.portfolio > hr {
-  color: #2C3E50;
-}
-/* row1 */
-.casa {
-  background-image: url(../img/casa.png);
-  height: 150px;
-  background-size: 60%;
-  background-repeat: no-repeat;
-  margin-left: 30%;
-  margin-top: 10%;
+/* immaginette */
+ #portfolio img {
+  width: 50%;
 }
