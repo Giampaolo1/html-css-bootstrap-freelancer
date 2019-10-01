@@ -46,7 +46,7 @@ nav a {
 /*-- start bootstrap */
 #start {
   background-color: #1ABC9C;
-  height: 300px;
+  /* height: 300px; */
   padding: 3%;
 }
 #start h1, h6 {
@@ -67,4 +67,12 @@ nav a {
 /* immaginette */
  #portfolio img {
   width: 50%;
+}
+/* sezione about */
+
+
+
+/* footer */
+footer {
+  background-color: lightgrey;
 }
