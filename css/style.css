@@ -12,6 +12,10 @@
   text-align: center;
 }
 
+.stella {
+  font-size: 20px;
+}
+
 /* .container {
   border: 1px solid yellow;
 } */
@@ -70,6 +74,10 @@ nav a {
  #portfolio img {
   width: 90%;
 }
+.immaginette img {
+  border-radius: 10px;
+  margin: 10px;
+}
 /* sezione about */
 #about {
   background-color: #1ABC9C;
@@ -89,7 +97,7 @@ nav a {
 }
 
 .bottone {
-  margin: 2%;
+  margin: 2% 0;
 }
 
 /* footer */
